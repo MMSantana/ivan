@@ -30,10 +30,10 @@ var game = new Phaser.Game(config);
 
 function preload ()
 {
-    this.load.image('sky', 'assets/sky.png');
-    this.load.image('ground', 'assets/platform.png');
-    this.load.image('tree', 'assets/tree.png');
-    this.load.image('bird', 'assets/bird-1.png');
+    this.load.image('sky', 'sky.png');
+    this.load.image('ground', 'platform.png');
+    this.load.image('tree', 'tree.png');
+    this.load.image('bird', 'bird-1.png');
 }
 
 function create ()
