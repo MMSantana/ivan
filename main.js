@@ -33,7 +33,7 @@ function preload ()
     this.load.image('sky', 'assets/sky.png');
     this.load.image('ground', 'assets/platform.png');
     this.load.image('tree', 'assets/tree.png');
-    this.load.image('bird', 'assets/bird/bird-1.png');
+    this.load.image('bird', 'assets/bird-1.png');
 }
 
 function create ()
